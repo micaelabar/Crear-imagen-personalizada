@@ -31,6 +31,6 @@ Construir una imagen Docker funcional a partir del proyecto React "suda-frontend
 - Documentación oficial de React: https://reactjs.org/docs/getting-started.html
 ## Procedimiento
 ### Paso 1: Clonar el repositorio:
-´´´´
+´´´
 git clone https://github.com/Daviddotcoms/suda-frontend-s6.git
 ´´´´
