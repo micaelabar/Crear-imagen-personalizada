@@ -38,17 +38,20 @@ Instalar dependencias:
 npm install
 ````
 ### Evidencia:
-<imag!
+<imag!![imagen 1](https://github.com/user-attachments/assets/b621f7dd-326f-47ac-ac8a-1b2834f28652)
+
 Ejecutar la aplicación:
 ```
 npm start
 ````
 ### Evidencia:
-<imag!
+<imag!![imagen 2](https://github.com/user-attachments/assets/2ce75140-f7f5-498a-a8d0-92d65c0d6b27)
+
 Verificar que la aplicación se muestre correctamente en
  http://localhost:5173/
  ### Evidencia:
-<imag!
+<imag!![imagen 8](https://github.com/user-attachments/assets/cf6467f0-cbcf-4a06-b053-26a259d727ee)
+
 ### Paso 3: Crear el archivo Dockerfile
 En la raíz del proyecto, crear un archivo llamado Dockerfile con el siguiente contenido:
 ```
@@ -67,23 +70,27 @@ EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
 ````
 ### Evidencia:
-<imag!
+<imag!![imagen 5](https://github.com/user-attachments/assets/2baca541-fa29-486c-b468-9df32b09e631)
+
 ### Paso 4: Construir la imagen Docker
 ```
 docker build -t suda-frontend:latest .
 ````
 ### Evidencia:
-<imag!
+<imag!![imagen 6](https://github.com/user-attachments/assets/0cbc4f88-2b1d-4875-917f-50c613ca0eef)
+
 ### Paso 5: Ejecutar el contenedor
 ```
 docker run -d -p 8080:80 --name suda-frontend-container suda-frontend:latest
 ````
 ### Evidencia:
-<imag!
+<imag!![imagen 7](https://github.com/user-attachments/assets/0326eea9-bf43-44ee-b8d4-c3119ceeb868)
+
 ### Paso 6: Verificar el funcionamiento
 Abrir navegador y acceder a http://localhost:8080 para verificar que la aplicación React se muestra correctamente dentro del contenedor.
 ### Evidencia:
-<imag!
+<imag!![imagen 9](https://github.com/user-attachments/assets/968648df-9621-449a-a4f8-ce37395282dc)
+
 ## 8. Resultado esperado:
 - La aplicación React se ejecuta correctamente en modo desarrollo local.
 - Se genera una imagen Docker que construye la aplicación y la sirve con Nginx.
