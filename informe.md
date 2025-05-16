@@ -34,11 +34,11 @@ Construir una imagen Docker funcional a partir del proyecto React "suda-frontend
 https://github.com/Daviddotcoms/suda-frontend-s6.git
 ### Paso 2:  Ejecutar localmente la aplicación React
 Instalar dependencias:
-´´´
+´´´´
 npm install
 ´´´´
 Ejecutar la aplicación:
-´´´
+´´´´
 npm start
 ´´´´
 Verificar que la aplicación se muestre correctamente en
