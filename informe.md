@@ -62,6 +62,7 @@ npm run dev
 ````
 ### Evidencia:
 <imag!![4](https://github.com/user-attachments/assets/bceed0cb-a87e-4ebf-8de7-d198435b0c9d)
+
 ### Paso 5: La app se ejecuta la confirmando que funciona correctamente en local.
 ```
 http://localhost:5173
@@ -107,6 +108,49 @@ npm start
 <imag!![11](https://github.com/user-attachments/assets/2ba84236-4e1c-42b7-ba54-37671a4baa9a)
 
 <imag!![12](https://github.com/user-attachments/assets/9385c1f8-dcae-40bb-bc2e-8b0cc283ac74)
+
+### Paso 10: Crear un archivo Dockerfile
+Dentro de la carpeta del proyecto, crea un archivo llamado Dockerfile con el siguiente contenido:
+```
+# Etapa de build
+FROM node:18-alpine AS build
+WORKDIR /app
+COPY package*.json ./
+RUN npm install
+COPY . .
+RUN npm run build
+
+# Etapa de producción con nginx
+FROM nginx:alpine
+COPY --from=build /app/build /usr/share/nginx/html
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]
+````
+### Evidencia:
+<imag!![14](https://github.com/user-attachments/assets/25417df0-84dd-40d0-b412-4fb18690df76)
+
+### Paso 11:  Crear archivo docker-compose.yml (si no existe)
+Si no tienes uno, crea un archivo llamado docker-compose.yml en la raíz del proyecto con lo siguiente:
+```
+{
+  "name": "clase-2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server db.json --port 3100"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}
+````
+### Evidencia:
+<imag!![15](https://github.com/user-attachments/assets/ce76c6e2-00ce-4071-8782-45c608208c9c)
 
 ## 8. Resultado esperado:
 - La aplicación React está funcionando correctamente en http://localhost:5173.
