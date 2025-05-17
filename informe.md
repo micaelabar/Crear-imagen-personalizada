@@ -153,11 +153,12 @@ Si no tienes uno, crea un archivo llamado docker-compose.yml en la raíz del pro
 <imag!![15](https://github.com/user-attachments/assets/ce76c6e2-00ce-4071-8782-45c608208c9c)
 
 ## 8. Resultado esperado:
-- La aplicación React está funcionando correctamente en http://localhost:5173.
-- El mock API está corriendo en http://localhost:3100.
-- Ya puedes continuar con la creación del Dockerfile para contenerizar el proyecto.
 ### Evidencia:
-<imag!
+<imag!![re](https://github.com/user-attachments/assets/6ea1c7b4-1672-4fdb-bbea-231234d14bc1)
+
+### Evidencia:
+<imag!![resul](https://github.com/user-attachments/assets/5942e013-7519-415d-a25a-b967b8275024)
+
 ## 9. Conclusión:
 Se ha logrado ejecutar localmente una aplicación React junto con una API simulada. Ambos servicios funcionan correctamente. El siguiente paso es crear un Dockerfile para empaquetar la aplicación y poder ejecutarla en cualquier entorno mediante Docker.
 ## 10. Bibliografía
