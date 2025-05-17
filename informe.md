@@ -46,7 +46,7 @@ Estás clonando el repositorio que contiene la aplicación React (suda-frontend-
 cd suda-frontend-s6
 ````
 ### Evidencia:
-<imag!![2](https://github.com/user-attachments/assets/5265a017-4d1f-4e49-8752-3b97cdb61187)
+<imag!![c2](https://github.com/user-attachments/assets/f000801c-8337-4611-8afc-9d0186560ccb)
 
 ### Paso 3: Instalas las dependencias del proyecto. NPM descarga los paquetes necesarios definidos en package.json.
 ```
