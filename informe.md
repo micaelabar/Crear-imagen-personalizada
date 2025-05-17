@@ -38,19 +38,30 @@ Documentación oficial:
 git clone https://github.com/Daviddotcoms/suda-frontend-s6.git
 ````
 Estás clonando el repositorio que contiene la aplicación React (suda-frontend-s6) desde GitHub.
+### Evidencia:
+<imag!![semana 7 1](https://github.com/user-attachments/assets/b17ebc1f-aca6-433b-9cc9-8352b26e0742)
+
 ### Paso 2: Entras en el directorio del proyecto clonado.
 ```
 cd suda-frontend-s6
 ````
+### Evidencia:
+<imag!![2](https://github.com/user-attachments/assets/5265a017-4d1f-4e49-8752-3b97cdb61187)
+
 ### Paso 3: Instalas las dependencias del proyecto. NPM descarga los paquetes necesarios definidos en package.json.
 ```
 npm install
 ````
+### Evidencia:
+<imag!![3](https://github.com/user-attachments/assets/4e2f9a34-d690-4132-944f-674c0e5ac1a7)
+
 ### Paso 4: Ejecución del proyecto React.
+Lo ejecutaste fuera de la carpeta del proyecto, por eso te marcó error Missing script: "dev".
 ```
 npm run dev
 ````
-Lo ejecutaste fuera de la carpeta del proyecto, por eso te marcó error Missing script: "dev".
+### Evidencia:
+<imag!![4](https://github.com/user-attachments/assets/bceed0cb-a87e-4ebf-8de7-d198435b0c9d)
 ### Paso 5: La app se ejecuta la confirmando que funciona correctamente en local.
 ```
 http://localhost:5173
@@ -60,21 +71,35 @@ Clonas otro repositorio que contiene una API falsa (mock) para simular el backen
 ```
 git clone https://github.com/Daviddotcoms/mockAPI.git
 ````
+### Evidencia:
+<imag!![5](https://github.com/user-attachments/assets/b40a9949-3ef2-4554-aba8-312d86b1192a)
+
 ### Paso 7: Entras en la carpeta y descargas las dependencias.
 ```
 cd mockAPI
 ````
+### Evidencia:
+<imag!![6](https://github.com/user-attachments/assets/56ebc1e3-4a34-4062-8461-028d41afe55a)
+
 ```
 npm install
 ````
+### Evidencia:
+<imag!![7](https://github.com/user-attachments/assets/4c11b3e7-ca39-4019-894d-1eeead720c53)
+
 ### Paso 8: Inicia el servidor JSON Server, el cual sirve datos desde db.json.
 ```
 npm start
 ````
+### Evidencia:
+<imag!![8](https://github.com/user-attachments/assets/b3a9fa98-ceae-471b-a628-9a707e07b6b0)
+
 ### Paso 9: El servidor se inicia en el puerto.
 ```
 3180: http://localhost:3180
 ````
+### Evidencia:
+<imag!
 ## 8. Resultado esperado:
 - La aplicación React está funcionando correctamente en http://localhost:5173.
 - El mock API está corriendo en http://localhost:3180.
