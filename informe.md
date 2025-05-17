@@ -66,6 +66,11 @@ npm run dev
 ```
 http://localhost:5173
 ````
+### Evidencia:
+<imag!![9](https://github.com/user-attachments/assets/32e6d441-5dc4-4c84-9fbe-86a4e7efc50a)
+
+<imag!![10](https://github.com/user-attachments/assets/2a4de90d-5ea7-455b-81e9-96646847e44b)
+
 ### Paso 6: API simulada con JSON Server.
 Clonas otro repositorio que contiene una API falsa (mock) para simular el backend.
 ```
@@ -96,13 +101,16 @@ npm start
 
 ### Paso 9: El servidor se inicia en el puerto.
 ```
-3180: http://localhost:3180
+3180: http://localhost:3100
 ````
 ### Evidencia:
-<imag!
+<imag!![11](https://github.com/user-attachments/assets/2ba84236-4e1c-42b7-ba54-37671a4baa9a)
+
+<imag!![12](https://github.com/user-attachments/assets/9385c1f8-dcae-40bb-bc2e-8b0cc283ac74)
+
 ## 8. Resultado esperado:
 - La aplicación React está funcionando correctamente en http://localhost:5173.
-- El mock API está corriendo en http://localhost:3180.
+- El mock API está corriendo en http://localhost:3100.
 - Ya puedes continuar con la creación del Dockerfile para contenerizar el proyecto.
 ### Evidencia:
 <imag!
